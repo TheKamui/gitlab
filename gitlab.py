@@ -41,6 +41,12 @@ class Cars(object):
         self.eng = True
         return "Brrrr!!! Engine Started. You ready to move"
 
+class Lada(cars):
+    """
+    Lada class
+    """
+    speed = "180 km/h"
+
 class Audi(Cars):
     """
     Audi class
